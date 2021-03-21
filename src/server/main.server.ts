@@ -1,3 +1,9 @@
-import { makeHello } from "shared/module";
-print("testing")
-print(makeHello("main.server.ts"));
+import { HttpService, ReplicatedStorage, Players } from "@rbxts/services"
+let passInformation = new Instance("RemoteEvent",ReplicatedStorage)
+
+Players.PlayerAdded.Connect((plr:Player) => {
+    plr.Chatted.Connect((keyword)=>{
+        
+        
+    })
+})

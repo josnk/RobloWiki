@@ -9,8 +9,12 @@
         "version": "8c875200e240dad46ccf5f7ac9d923d39c0919cc66f2cf920e4c13cdc3e88a87",
         "affectsGlobalScope": false
       },
+      "../node_modules/@rbxts/services/index.d.ts": {
+        "version": "f5b521519568e3dcb6f8cf871438e29aa5f7968a017be88929983a43b801451b",
+        "affectsGlobalScope": false
+      },
       "../src/server/main.server.ts": {
-        "version": "e43cd3dd7481e1c111f1ff5f1d8b28119d3f7f9878251ccd413bef9b29107d84",
+        "version": "6959cbe99c9929ff98998d770f159c5bf44623cf3d2d5dd200d21c6e92958bb9",
         "affectsGlobalScope": false
       },
       "../node_modules/@rbxts/types/include/generated/enums.d.ts": {
@@ -171,7 +175,7 @@
         "../src/shared/module.ts"
       ],
       "../src/server/main.server.ts": [
-        "../src/shared/module.ts"
+        "../node_modules/@rbxts/services/index.d.ts"
       ]
     },
     "exportedModulesMap": {},
